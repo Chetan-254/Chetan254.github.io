@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IronLog — Training Plans, Nutrition & Fitness Calculators</title>
+  <meta name="description" content="Structured strength training plans, nutrition guidance, and a free BMI & calorie calculator.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">IRON<span>LOG</span></a>
+      <nav class="nav" id="nav">
+        <a href="#plans">Plans</a>
+        <a href="#nutrition">Nutrition</a>
+        <a href="#calculator">Calculator</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Personal Training Log</p>
+          <h1>Stop guessing.<br>Start tracking<br>every <span class="accent">rep</span>.</h1>
+          <p class="lead">Structured workout plans, nutrition guidance, and the tools to measure your progress — built for people who train with intent.</p>
+          <div class="hero-actions">
+            <a href="#plans" class="btn btn-primary">View training plans</a>
+            <a href="#calculator" class="btn btn-ghost">Calculate your numbers</a>
+          </div>
+        </div>
+        <div class="session-card">
+          <div class="session-card-head">
+            <span>Today's Session</span>
+            <span class="session-day">Push Day · 04</span>
+          </div>
+          <ul class="session-list">
+            <li><span class="ex-num">01</span><span class="ex-name">Barbell Bench Press</span><span class="ex-detail">4 × 8 @ 60kg</span></li>
+            <li><span class="ex-num">02</span><span class="ex-name">Overhead Press</span><span class="ex-detail">3 × 10 @ 30kg</span></li>
+            <li><span class="ex-num">03</span><span class="ex-name">Incline DB Press</span><span class="ex-detail">3 × 12 @ 22kg</span></li>
+            <li><span class="ex-num">04</span><span class="ex-name">Tricep Rope Pushdown</span><span class="ex-detail">3 × 15 @ 25kg</span></li>
+          </ul>
+          <div class="session-foot">
+            <span>Est. duration</span>
+            <span class="mono">52 min</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS STRIP -->
+    <section class="stats-strip">
+      <div class="container stats-inner">
+        <div class="stat">
+          <span class="stat-num" data-count="4">0</span>
+          <span class="stat-label">Training Programs</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="120">0</span>
+          <span class="stat-label">Exercises Logged</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="6">0</span>
+          <span class="stat-label">Weeks per Block</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="2">0</span>
+          <span class="stat-label">Built-In Calculators</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAINING PLANS -->
+    <section id="plans" class="section">
+      <div class="container">
+        <p class="eyebrow">Training Plans</p>
+        <h2>Pick a block, follow the log</h2>
+        <div class="card-grid">
+          <article class="plan-card">
+            <span class="plan-num">01</span>
+            <h3>Strength Foundations</h3>
+            <p>Build a solid base with the big compound lifts. Focus on form, progressive overload, and consistency.</p>
+            <ul class="plan-meta">
+              <li>6 weeks</li>
+              <li>3 sessions / week</li>
+              <li>Beginner</li>
+            </ul>
+          </article>
+          <article class="plan-card">
+            <span class="plan-num">02</span>
+            <h3>Hypertrophy Block</h3>
+            <p>Higher volume training designed to drive muscle growth across all major movement patterns.</p>
+            <ul class="plan-meta">
+              <li>8 weeks</li>
+              <li>4 sessions / week</li>
+              <li>Intermediate</li>
+            </ul>
+          </article>
+          <article class="plan-card">
+            <span class="plan-num">03</span>
+            <h3>Conditioning Circuit</h3>
+            <p>Full-body circuits that build cardiovascular endurance and work capacity without burning you out.</p>
+            <ul class="plan-meta">
+              <li>4 weeks</li>
+              <li>5 sessions / week</li>
+              <li>All levels</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUTRITION -->
+    <section id="nutrition" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">Nutrition</p>
+        <h2>Fuel the work you're putting in</h2>
+        <div class="card-grid">
+          <article class="tip-card">
+            <span class="tip-num">01</span>
+            <h3>Protein Timing</h3>
+            <p>Spread protein intake evenly across 3–4 meals to support muscle repair and keep you full between sessions.</p>
+          </article>
+          <article class="tip-card">
+            <span class="tip-num">02</span>
+            <h3>Hydration</h3>
+            <p>Aim for at least 30–35ml of water per kg of bodyweight daily — more on training days or in hot weather.</p>
+          </article>
+          <article class="tip-card">
+            <span class="tip-num">03</span>
+            <h3>Meal Prep</h3>
+            <p>Batch-cook proteins and carbs once or twice a week so good choices are the easy choices on busy days.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALCULATOR -->
+    <section id="calculator" class="section">
+      <div class="container calc-grid">
+        <div class="calc-intro">
+          <p class="eyebrow">Know Your Numbers</p>
+          <h2>BMI & daily calorie calculator</h2>
+          <p class="lead">Enter your details to get your Body Mass Index and an estimated daily calorie target based on your activity level.</p>
+        </div>
+        <form class="calc-card" id="calcForm">
+          <div class="field-row">
+            <div class="field">
+              <label for="age">Age</label>
+              <input type="number" id="age" min="10" max="100" required>
+            </div>
+            <div class="field">
+              <label for="gender">Gender</label>
+              <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="height">Height (cm)</label>
+              <input type="number" id="height" min="100" max="250" required>
+            </div>
+            <div class="field">
+              <label for="weight">Weight (kg)</label>
+              <input type="number" id="weight" min="30" max="300" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="activity">Activity level</label>
+            <select id="activity">
+              <option value="1.2">Sedentary (little/no exercise)</option>
+              <option value="1.375">Light (1–3 days/week)</option>
+              <option value="1.55">Moderate (3–5 days/week)</option>
+              <option value="1.725">Active (6–7 days/week)</option>
+              <option value="1.9">Very active (athlete)</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Calculate</button>
+
+          <div class="calc-result" id="calcResult" hidden>
+            <div class="result-row">
+              <span>BMI</span>
+              <span class="mono" id="bmiValue">--</span>
+            </div>
+            <div class="result-row">
+              <span>Category</span>
+              <span id="bmiCategory">--</span>
+            </div>
+            <div class="result-row">
+              <span>Daily Calories</span>
+              <span class="mono" id="calorieValue">--</span>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-dark">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">Get In Touch</p>
+          <h2>Ready to start your next block?</h2>
+          <p>Questions about a program, form check requests, or coaching inquiries — send a message and I'll log it.</p>
+        </div>
+        <form class="contact-form">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="logo">IRON<span>LOG</span></span>
+      <p>&copy; 2026 IronLog. Train with intent.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
